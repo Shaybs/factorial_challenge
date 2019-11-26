@@ -20,7 +20,7 @@ def test_inverse_factorial_6():
     assert inverse_factorial.inverse_factorial(-2) == 'NONE'
 
 def test_inverse_factorial_7():
-    assert inverse_factorial.inverse_factorial(1) == '1!'
+    assert inverse_factorial.inverse_factorial(1) == '1! or 0!'
 
 def test_inverse_factorial_8():
     assert inverse_factorial.inverse_factorial(1000000) == 'NONE'

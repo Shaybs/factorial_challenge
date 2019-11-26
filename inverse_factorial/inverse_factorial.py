@@ -10,12 +10,17 @@ def inverse_factorial(number):
         count += 1
     
     if number == 1:
-        a = "{0}!".format(count)
-        print(a)
-        return a
+        if count > 1:
+            a = "{0}!".format(count)
+            print(a)
+            return a
+        elif count == 1:
+            c = "{0}! or 0!".format(count)
+            print(c)
+            return c
     elif number != 1:
         b = "NONE"
         print(b)
         return b
 
-inverse_factorial(50)
+inverse_factorial(1)
