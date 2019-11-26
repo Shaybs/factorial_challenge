@@ -22,3 +22,5 @@ def inverse_factorial(number):
         b = "NONE"
         print(b)
         return b
+
+#
