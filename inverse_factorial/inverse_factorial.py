@@ -1,3 +1,4 @@
+#The inverse factorial function
 
 def inverse_factorial(number):
     factorial_test = number
