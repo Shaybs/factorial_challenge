@@ -1,0 +1,7 @@
+/venv/*
+/.pytest_cache/*
+/inverse_factorial/__init__.py
+/inverse_factorial_test/.pytest_cache/*
+/inverse_factorial_test/__init__.py
+/inverse_factorial/__pycache__/*
+/inverse_factorial_test/__pycache__/*
